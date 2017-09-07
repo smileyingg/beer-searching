@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="build/main.bundle.js"></script>
+    <title>Beer Searching</title>
+</head>
+<body>
+<br/>
+	<center><h1 style="font-size:45px"> Beer Searching</h1></center>
+	<center><h2>You can search by Beer name, Food pairing or Yeast.</h2></center>
+	
+<div class="search_box"> 
+    <div class="search_type">
+        <table class="search_area">
+            <tr>
+                <th class="search_header">Name : </th>
+                <td><input type="text" id="beer_name" class="search_input"></td>
+            </tr>
+            <tr>
+                <th class="search_header">Food : </th>
+                <td><input type="text" id="food" class="search_input"></td>
+            </tr>
+            <tr>
+                <th class="search_header">Yeast : </th>
+                <td><input type="text" id="yeast" class="search_input"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="button_search" align="center ">
+        <button id="btn_search" class="btn_search" name="btnSearch"> Search </button>
+    </div>
+</div>
+<div id="table_result"></div>
+</body>
+</html>

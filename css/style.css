@@ -1,0 +1,58 @@
+body {
+    background-color: #EAEDED    ;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.search_box {
+    width: 50%;
+    min-height: 75px;
+    height: 175px;
+    background-color: #FCF3CF  ;
+    margin: 30px auto 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search_type {
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.search_header {
+    width: 90px;
+    padding-left: 30px;
+}
+
+.search_area {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0px auto auto auto;
+    text-align: left;
+}
+
+.search_input {
+    width: 95%;
+}
+
+#table_result {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto auto auto;
+    padding: 7px;
+    
+}
+
+.btn_search {
+    margin-top: 20px;
+    margin-bottom: 15px;
+	font-family: 'Noto Sans', sans-serif;
+	width: 150px;
+	
+}
+
+.button_search {
+    width: 100%;
+}
